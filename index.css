@@ -1,0 +1,216 @@
+body {
+    background: rgba(0, 0, 0, 0.931);
+}
+
+.rect {
+    z-index: -1;
+    border: solid white;
+    border-width: 0 0 0.9px 1.5px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    position: relative;
+    width: 370px;
+    height: 160px;
+    background: linear-gradient(109.83deg, #0276FF 2.75%, rgba(0, 12, 75, 0.92) 100%);
+    border-radius: 15px;
+    transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0);
+}
+.trans {
+    backdrop-filter: blur(5px);
+    border: solid white;
+    border-width: 0 0 0.9px 1.5px;
+    margin: 200px auto -120px auto;
+    box-sizing: border-box;
+    position: relative;
+    width: 370px;
+    height: 160px;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 15px;
+    transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0);
+}
+
+.rect span {
+    position: absolute;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    left: 120.74px;
+    top: 30.5px;
+    z-index: -1;
+    background: rgba(170, 63, 255, 0.65);
+    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
+
+}
+.rect .a{
+    position: absolute;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    left: 174px;
+    top: 69px;
+    z-index: -1;
+    background: rgba(250, 0, 255, 0.63);
+    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
+
+}
+.rect .b{
+    position: absolute;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+    left: 145px;
+    top: 92px;
+    z-index: -1;
+    background: rgba(121, 247, 255, 0.53);
+    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
+
+}
+
+.logo h5 {
+    position: absolute;
+    width: 68px;
+    height: 22px;
+    left: 43.32px;
+    top: -10px;
+
+    font-family: 'Inder';
+    font-style: normal;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
+
+}
+
+.logo img {
+    position: absolute;
+    width: 56.5px;
+    height: 20.33px;
+    left: 290.6px;
+    top: 15px;
+    border-radius: 3px;
+    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
+
+}
+
+.tittle h6{
+    position: absolute;
+    width: 100px;
+    height: 13px;
+    left: 45.96px;
+    top: 34px;
+
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8.5px;
+    line-height: 8px;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.88);
+
+    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
+
+}
+
+.tittle h6:nth-child(2) {
+    position: absolute;
+    width: 68px;
+    height: 13px;
+    left: 194.96px;
+    top: 35px;
+
+    font-family: 'Inder';
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 8px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.88);
+
+    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
+
+}
+
+.details h4 {
+    position: absolute;
+    width: 78px;
+    height: 13px;
+    left: 48.35px;
+    top: 52px;
+
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgb(236, 236, 236);
+
+    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
+
+}
+
+.details h4:nth-child(2) {
+    position: absolute;
+    width: 78px;
+    height: 13px;
+    left: 190.35px;
+    top: 55px;
+
+    font-family: 'Inder';
+    font-style: normal;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgb(236, 236, 236);
+
+    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
+
+}
+
+.number {
+    position: absolute;
+    width: 244px;
+    height: 32px;
+    left: 90px;
+    top: 110px;
+
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+
+    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
+
+}
