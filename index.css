@@ -2,6 +2,9 @@ body {
     background: rgba(0, 0, 0, 0.931);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@90&display=swap');
+
+
 .rect {
     z-index: -1;
     border: solid white;
@@ -15,6 +18,7 @@ body {
     border-radius: 15px;
     transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0);
 }
+
 .trans {
     backdrop-filter: blur(5px);
     border: solid white;
@@ -38,10 +42,10 @@ body {
     top: 30.5px;
     z-index: -1;
     background: rgba(170, 63, 255, 0.65);
-    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
 
 }
-.rect .a{
+
+.rect .a {
     position: absolute;
     border-radius: 20px;
     width: 40px;
@@ -50,10 +54,10 @@ body {
     top: 69px;
     z-index: -1;
     background: rgba(250, 0, 255, 0.63);
-    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
 
 }
-.rect .b{
+
+.rect .b {
     position: absolute;
     border-radius: 20px;
     width: 25px;
@@ -62,21 +66,18 @@ body {
     top: 92px;
     z-index: -1;
     background: rgba(121, 247, 255, 0.53);
-    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
-
 }
 
 .logo h5 {
     position: absolute;
-    width: 68px;
+    width: 78px;
     height: 22px;
     left: 43.32px;
     top: -10px;
 
-    font-family: 'Inder';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     letter-spacing: 1px;
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     display: flex;
@@ -84,8 +85,6 @@ body {
     text-align: center;
 
     color: #FFFFFF;
-
-    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
 
 }
 
@@ -96,11 +95,10 @@ body {
     left: 290.6px;
     top: 15px;
     border-radius: 3px;
-    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
 
 }
 
-.tittle h6{
+.tittle h6 {
     position: absolute;
     width: 100px;
     height: 13px;
@@ -118,9 +116,6 @@ body {
     text-align: center;
 
     color: rgba(255, 255, 255, 0.88);
-
-    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
-
 }
 
 .tittle h6:nth-child(2) {
@@ -141,9 +136,6 @@ body {
     text-align: center;
 
     color: rgba(255, 255, 255, 0.88);
-
-    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
-
 }
 
 .details h4 {
@@ -164,9 +156,6 @@ body {
     text-align: center;
 
     color: rgb(236, 236, 236);
-
-    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
-
 }
 
 .details h4:nth-child(2) {
@@ -187,21 +176,17 @@ body {
     text-align: center;
 
     color: rgb(236, 236, 236);
-
-    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
-
 }
 
 .number {
     position: absolute;
-    width: 244px;
+    width: 344px;
     height: 32px;
-    left: 90px;
+    left: 75px;
     top: 110px;
 
-    font-family: 'Inder';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
     letter-spacing: 2px;
     font-size: 18px;
     line-height: 22px;
@@ -210,7 +195,34 @@ body {
     text-align: center;
 
     color: rgb(255, 255, 255);
+}
 
-    /* transform: matrix(0.71, -0.41, 1.22, 0.71, 0, 0); */
+.number1 {
+    position: absolute;
+    width: 344px;
+    height: 32px;
+    left: 75px;
+    top: 110px;
 
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+}
+.number img {
+    opacity: 70%;
+    width: 42.26px;
+    height: 13.73px;
+    padding: 10px;
+
+}
+.number1 img {
+    width: 75px;
+    height: 30px;
 }
