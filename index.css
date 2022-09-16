@@ -87,6 +87,10 @@ body {
     color: #FFFFFF;
 
 }
+.logo h5 span{
+    color:#90ffdf;
+    padding: 5px;
+}
 
 .logo img {
     position: absolute;
@@ -155,7 +159,7 @@ body {
     align-items: center;
     text-align: center;
 
-    color: rgb(236, 236, 236);
+    color: rgb(255, 255, 255);
 }
 
 .details h4:nth-child(2) {
@@ -175,7 +179,7 @@ body {
     align-items: center;
     text-align: center;
 
-    color: rgb(236, 236, 236);
+    color: rgb(255, 255, 255);
 }
 
 .number {
